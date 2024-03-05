@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    height: 150vh;
+  
+}
+
+.bg{
+    background-image: url("image/pizza.jpg");
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: cover;
+}
+.navbar{
+    color: rgb(241, 236, 236);
+    width: 100%;
+    padding: 30px;
+    position: fixed;
+    
+    
+}
+
+
+
+li{
+    display: inline;
+    padding: 20px;
+    font-size: 1.2rem;
+    font-weight:bold;
+    font-family: cursive;
+    font-style: italic;
+    
+}
+
+a{
+    
+    color: rgb(248, 246, 246);
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 5px 10px;
+    display: inline;
+
+}
+
+a:hover{
+    background-color: rgb(253, 65, 65);
+}
+
+.bgColor{
+    transition: all 1s;
+    background-color: rgb(253, 65, 65);
+    
+    border-bottom: 1px solid lightgrey;
+}
